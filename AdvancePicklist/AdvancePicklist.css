@@ -1,0 +1,9 @@
+.THIS .slds-pill-container{
+    display: block !important;    
+}
+.THIS .slds-pill {
+    line-height: 1.5rem !important;
+}
+.THIS .fullWidth {
+    width: 100%;
+}
