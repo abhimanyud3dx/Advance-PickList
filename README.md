@@ -59,3 +59,19 @@ Demo : https://www.screencast.com/t/XuBGqkQJm
                    ></c:AdvancePicklist>
 ```
 
+3. To clear the value in picklist give AdvancePicklist component an aura:id say "advPicklistId",
+
+```
+<c:AdvancePicklist  aura:id="advPicklistId"
+                    label="{!v.ObjectType.Account.Industry.label}" 
+                    value="{!v.record.Industry}"
+                    optionsList="{!v.ObjectType.Account.Industry.picklistOptions}"
+                   ></c:AdvancePicklist>
+```
+In parent component controller, execute this command and it will reset the picklist.
+```
+let childPicklistCmp = component.find("advPicklistId");
+if (childPicklistCmp) {
+  let auraMethodResult = childCmp.clearPicklist();
+}
+ ```
