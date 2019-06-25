@@ -11,8 +11,10 @@ Custom Picklist component with search feature and both single select and multi-s
 
 ### Feature
 1. Support Single Select
+
 ![alt text](https://raw.githubusercontent.com/abhimanyud3dx/Advance-PickList/master/Sreenshots/Picklist-Single-Select.png)
 2. Support Multiselect
+
 ![alt text](https://raw.githubusercontent.com/abhimanyud3dx/Advance-PickList/master/Sreenshots/Picklist-Multi-Select.png)
 3. Searching 
 4. Help Text
