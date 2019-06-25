@@ -2,7 +2,7 @@
 Custom Picklist component with search feature and both single select and multi-select Picklist 
 
 
-<a href="https://githubsfdeploy.herokuapp.com?owner=abhimanyud3dx&repo=Advance-PickList">
+<a href="https://login.salesforce.com/packaging/installPackage.apexp?p0=04t0K000001KgFz&isdtp=p1">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
