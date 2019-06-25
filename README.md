@@ -9,7 +9,9 @@ Custom Picklist component with search feature and both single select and multi-s
 
 ## Advance PickList for Salesforce Lightning
 
-### Feature
+Demo : https://www.screencast.com/t/XuBGqkQJm
+
+### Features
 1. Support Single Select
 
 ![alt text](https://raw.githubusercontent.com/abhimanyud3dx/Advance-PickList/master/Sreenshots/Picklist-Single-Select.png)
