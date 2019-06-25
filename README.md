@@ -28,7 +28,7 @@ Custom Picklist component with search feature and both single select and multi-s
 | --- | --- | --- |
 | label | String | Field Label |
 | value | String | Selected Value, format will be A;B;C in multiselect |
-| optionsList | List | List of Object with 2 attributes label and value, eg. [{"label":"Agriculture", "value":"Agriculture"}] | 
+| optionsList | List | List of Object with 2 attributes label and value, eg. [{"label":"Agriculture", "value":"Agriculture"},{"label":"Banking", "value":"Banking"}] | 
 | required | Boolean | Show required * on UI, you have to add validation separatly. |
 | helptext | String | Help text to be displayed |
 | multiselect | Boolean | Make this a multiselect picklist |
