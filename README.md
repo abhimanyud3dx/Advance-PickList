@@ -7,9 +7,9 @@ Custom Picklist component with search feature and both single select and multi-s
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
 
-##Advance PickList for Salesforce Lightning
+## Advance PickList for Salesforce Lightning
 
-###Feature
+### Feature
 1. Support Single Select
 ![alt text](https://raw.githubusercontent.com/abhimanyud3dx/Advance-PickList/master/Sreenshots/Picklist-Single-Select.png)
 2. Support Multiselect
@@ -17,7 +17,7 @@ Custom Picklist component with search feature and both single select and multi-s
 3. Searching 
 4. Help Text
 
-###Usage
+### Usage
 
 
 | Attribute | Type | Description |
