@@ -9,6 +9,9 @@
                 searchResultList.push(records[i])
             }
         }
+        if(searchResultList.length == 0) {
+            component.set('v.message','No Result Found');
+        }
         component.set('v.optionSearchResult',searchResultList);
     },
     sortList :function (inputList) {
