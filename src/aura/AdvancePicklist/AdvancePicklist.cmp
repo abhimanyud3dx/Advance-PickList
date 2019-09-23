@@ -31,6 +31,7 @@
     <!-- Internal Attributes -->
     <aura:attribute name="SearchKeyWord" type="String" />
     <aura:attribute name="optionSearchResult" type="List" />
+    <aura:attribute name="message" type="String"/>
     <aura:attribute name="dropdown_length" type="Integer" default="0"/>
     
     <!-- Handler and Methods -->
@@ -53,6 +54,7 @@
                 </div>
             </div>
             <ul style="min-height:40px;margin-top:0px !important;" class="{!'slds-listbox slds-listbox_vertical slds-dropdown slds-dropdown_length-'+v.dropdown_length+' slds-dropdown_fluid slds-lookup__menu slds'}">
+                 <center>{!v.message}</center>
                 <aura:iteration items="{!v.optionSearchResult}" var="record">
                     <li role="presentation" class="slds-listbox__item" data-id="{!record.value}" onclick="{!c.selectRecord}">
                         <span id="listbox-option-unique-id-01" class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
