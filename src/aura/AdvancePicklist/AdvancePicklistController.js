@@ -54,6 +54,7 @@
         $A.util.addClass(forOpen, 'slds-is-open');
         $A.util.removeClass(forOpen, 'slds-is-close');
         let inputkeyWord = '';
+        component.set('v.message','');
         helper.searchValues(component, event, helper, inputkeyWord);
     },
     onblur : function (component, event, helper) {
@@ -65,6 +66,7 @@
     keyPressController : function (component, event, helper) {
         // get the search Input keyword
         let inputkeyWord = component.get("v.SearchKeyWord");
+        component.set('v.message','');
         // else close the lookup result List part.
         if (inputkeyWord.length > 0) {
             let forOpen = component.find("searchRes");
