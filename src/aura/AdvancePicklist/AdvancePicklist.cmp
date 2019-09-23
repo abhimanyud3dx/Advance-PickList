@@ -37,6 +37,7 @@
     <!-- Handler and Methods -->
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
     <aura:method name="clearPicklist" description="Clear All Data" action="{!c.clearAll}"/>
+    <aura:handler name="change" value="{!v.SearchKeyWord}" action="{!c.resetMessage}"/>
     
     <div onmouseleave="{!c.onblur}" aura:id="searchRes" class="searchRes slds-form-element slds-lookup slds-is-close">
         
